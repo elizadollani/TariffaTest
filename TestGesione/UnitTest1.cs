@@ -31,7 +31,7 @@ namespace TestGesione
 			public void TestTariffaC()
 			{
 				int ore = 10;
-				double tariffa3 = 10.8;
+				double tariffa3 =10.8;
 				double rispostaAspettata = 10.8;
 				double rispostaEffettiva = Gestione.TariffaC(ore, tariffa3);
 				Assert.AreEqual(rispostaAspettata, rispostaEffettiva);
