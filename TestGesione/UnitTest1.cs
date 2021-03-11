@@ -23,7 +23,7 @@ namespace TestGesione
 			{
 				int ore = 7;
 				int tariffa2 = 7;
-				int rispostaAspettata = 7;
+				int rispostaAspettata =7;
 				int rispostaEffettiva = Gestione.TariffaB(ore, tariffa2);
 				Assert.AreEqual(rispostaAspettata, rispostaEffettiva);
 			}
